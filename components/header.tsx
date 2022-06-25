@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
+import styled from 'styled-components';
 
-
-const Container = () =>{}
+const HeaderContainer = styled.header``;
 
 const Header = () => {
-  return(<>This is the header</>);
-}
+  return <HeaderContainer>This is the header</HeaderContainer>;
+};
 
 export default Header;
