@@ -17,7 +17,13 @@ const HeaderContainer = styled.header`
   align-content: center;
 
   .logo {
-    margin: 0 4rem 1rem 4rem;
+    margin: 0 4rem 0 4rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 1.2;
   }
 
   .blurb {
@@ -36,8 +42,8 @@ const Header = () => {
         <Image src={LogoImage} layout='responsive' objectFit='contain' alt='' />
       </div>
       <div className='blurb'>
-        Shall be with you shortly. <br />
-        Email? Yeah ok. <a href='mailto:tommy@seventhstage.uk'>tommy@seventhstage.uk</a>
+        <h2>Shall be with you shortly.</h2>
+        <a href='mailto:tommy@seventhstage.uk'>tommy@seventhstage.uk</a>
       </div>
     </HeaderContainer>
   );
