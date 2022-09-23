@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <title>Seventh Stage - The Web Design Agency</title>
         <meta
           name='description'
-          content='Little design and dev agency wth big ideas. Ran by Ben Pellechia, Tom Sweeney, and Cauley Smith'
+          content='Little design and dev agency wth big ideas ran by Tom Sweeney and collaborators'
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
