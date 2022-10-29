@@ -39,6 +39,12 @@ const HeaderContainer = styled.header`
     text-align: center;
     align-content: center;
     text-transform: uppercase;
+    a {
+      text-decoration: underline;
+      :hover {
+        text-decoration: none;
+      }
+    }
   }
 `;
 
@@ -47,12 +53,9 @@ const Header = () => {
     <HeaderContainer>
       {/* <Image src={BackgroundImage} layout='fill' objectFit='cover' alt='' /> */}
       <div className='logo'>
-        <Image src={LogoImage} layout='responsive' objectFit='contain' alt='' />
+        <Image src={LogoImage} layout='responsive' objectFit='contain' alt='Sevent Stage Logo' />
       </div>
-      <div className='blurb'>
-        <h2>Shall be with you shortly.</h2>
-        <a href='mailto:tommy@seventhstage.uk'>tommy@seventhstage.uk</a>
-      </div>
+
       <div className='highlight'>
         We just re-designed <a href='https://gooseashby.com'>Goose Clothing</a> why not have a gander?
       </div>
