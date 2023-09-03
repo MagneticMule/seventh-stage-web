@@ -11,18 +11,15 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Seventh Stage - The Web Design Agency</title>
-        <meta
-          name='description'
-          content='Little design and dev agency wth big ideas ran by Tom Sweeney and collaborators'
-        />
+        <title>Seventh Stage - Digital design for education and the arts</title>
+        <meta name='description' content='Little design and dev agency wth big ideas ran by Tom Sweeney and collaborators' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
         {/* <Menu /> */}
         <Header />
-        {/* <Main />
-        <Footer /> */}
+        <Main />
+        <Footer />
       </main>
     </>
   );
