@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Testimonial from './testimonial';
 
 import LogoImage from '/images/seventh_stage_logo_small.png';

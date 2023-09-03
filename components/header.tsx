@@ -1,7 +1,7 @@
 import { url } from 'inspector';
 import React from 'react';
 import styled from 'styled-components';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import BackgroundImage from '/images/header/header.svg';
 import Whale from '/images/whale.png';
 import LogoImage from '/images/seventh_stage_logo.png';

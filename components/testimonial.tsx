@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Image, { StaticImageData } from 'next/image';
+import Image, { StaticImageData } from "next/legacy/image";
 
 import BackgroundBlobs from '/images/background-blobs-light.png';
 import { Background } from '/images/headers/header.svg';
