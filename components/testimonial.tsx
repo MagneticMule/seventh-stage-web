@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Image, { StaticImageData } from "next/legacy/image";
+import Image, { StaticImageData } from 'next/legacy/image';
 
-import BackgroundBlobs from '/images/background-blobs-light.png';
-import { Background } from '/images/headers/header.svg';
+// import BackgroundBlobs from '/images/background-blobs-light.png';
+// import { Background } from '/images/headers/header.svg';
 
 const ImageWrapper = styled.span`
   background: linear-gradient(180deg, rgba(61, 1, 1, 1) 0, rgba(144, 9, 86, 1) 54.08%, rgba(0, 17, 78, 1) 100%), #c600c6 50% / cover no-repeat;
