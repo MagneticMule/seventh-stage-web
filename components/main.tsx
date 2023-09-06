@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 import Testimonial from './testimonial';
 
 import LogoImage from '/images/seventh_stage_logo_small.png';
@@ -153,8 +153,8 @@ const Main = () => {
         </div>
         <CopyContainer>
           <Intro>We help you build better relationships with your customers through creative digital design, creating the right connections,setting the right tone, and turning your customers into raving fans.</Intro>
-          <Paragraph>You’re not just a client to us, we work with you as part of the team to produce projects we can both be proud of. Some projects are small some big but every project is approached in the same manner. </Paragraph>
-          <Paragraph>We want to find out what makes our clients tick, what gets them excited , what is it about you and your business that makes you jump out of bed every morning ready to go out and add more value to your customers lives…</Paragraph>
+          <Paragraph>You&apos;re not just a client to us, we work with you as part of the team to produce projects we can both be proud of. Some projects are small some big but every project is approached in the same manner. </Paragraph>
+          <Paragraph>We want to find out what makes our clients tick, what gets them excited ,what is it about you and your business that makes you jump out of bed every morning ready to go out and add more value to your customers lives…</Paragraph>
           <Paragraph>We believe that the more value you give the more will come back to you, putting you in a better position to give even more the next time.</Paragraph>
 
           <Signature>
@@ -190,16 +190,16 @@ const Main = () => {
             <h4>What we do</h4>
             <h3>WE BUILD Highly customized solutions to very specific problems.</h3>
           </Heading>
-          <Intro>Some that might seem a little complicated and in reality it is, but you don't need to worry about that because we know what we are doing.</Intro>
-          <Paragraph>Using this techy stuff we can work with you to develop very exciting things that are phenomenally fast, secure, user friendly and makes your business look awesome. In short anything you've seen on the web from secure websites, web apps and integrated systems that make your sales, tracking and even bookkeeping simpler and efficient. We can build membership sites, next level ecommerce sites, learning platforms. </Paragraph>
+          <Intro>Some that might seem a little complicated and in reality it is, but you don&apos;t need to worry about that because we know what we are doing.</Intro>
+          <Paragraph>Using this techy stuff we can work with you to develop very exciting things that are phenomenally fast, secure, user friendly and makes your business look awesome. In short anything you&apos;ve seen on the web from secure websites, web apps and integrated systems that make your sales, tracking and even bookkeeping simpler and efficient. We can build membership sites, next level ecommerce sites, learning platforms. </Paragraph>
           <Paragraph>Pretty much whatever you can imagine.</Paragraph>
           <Paragraph>
-            <span>Expect Great Things</span>
+            <span>Expect Great Things.</span>
           </Paragraph>
         </div>
         <CopyContainer>
           <BoyImageContainer>
-            <Image src={Boy} />
+            <Image src={Boy} alt='' />
           </BoyImageContainer>
         </CopyContainer>
       </MainContainer>
