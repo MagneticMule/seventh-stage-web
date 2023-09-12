@@ -127,7 +127,12 @@ const Collaborators = styled.div`
     gap: 2em;
     align-items: center;
     justify-content: center;
-    flex-shrink: 1;
+    flex-wrap: wrap;
+    > * {
+      /* max-width: 160px !important; */
+      /* flex-basis: 160px; */
+      flex-shrink: 0;
+    }
   }
 `;
 

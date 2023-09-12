@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Image from "next/legacy/image";
+import Image from 'next/legacy/image';
 
 const FooterContainer = styled.footer`
   background-color: #201515;
   color: #dad3d3;
   > .main {
-    padding: 4em 0 4em 0;
+    padding: 4em 2em 4em 2em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1200px;
     margin: 0 auto;
   }
   > .secondary {
-    padding: 2em 0;
+    padding: 2em;
     background-color: #111010;
     > p {
       margin: 0 auto;
